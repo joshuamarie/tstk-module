@@ -1,0 +1,32 @@
+[module]
+name = "tstk"
+version = "0.1.0"
+description = "A sample R module consists the toolkit for time series analysis"
+authors = ["Joshua Marie"]
+license = "MIT"
+r_version = "^4.1.0"
+
+[dependencies.packages]
+stats = "*"
+tseries = "*"
+forecast = "*"
+prophet = "*"
+tsibble = "*"
+feasts = "*"
+fable = "*"
+ggplot2 = ">=3.4.0"
+dplyr = ">=1.1.0"
+lubridate = "*"
+purrr = "*"
+slider = "*"
+stringr = "*"
+glue = "*"
+rlang = "*"
+tidyr = "*"
+
+[repositories]
+cran = "https://cloud.r-project.org"
+
+# [test]
+# framework = "testthat"
+# dir = "tests"

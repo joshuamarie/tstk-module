@@ -1,0 +1,19 @@
+---
+output: github_document
+---
+
+> ## ⚠️ Important Notice ⚠️
+>
+> Please note that as of this date, `carrier` still in its earliest development
+
+# tstk: Time series toolkit
+
+This is an example module that bundles common time series methods, which can be loaded with `{box}` use.
+
+## Installation
+
+You need to install `carrier` first (see [here](https://github.com/joshuamarie/carrier/blob/main/README.md)). The installation is easily done with:
+
+``` bash
+carrier install gh:joshuamarie/tstk-module
+```
