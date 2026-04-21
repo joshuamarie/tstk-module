@@ -1,6 +1,6 @@
 #' @export
 box::use(
-    ./decompose,
+    ./decomp,
     forecast = ./forecast[...], 
     ./plot
 )
