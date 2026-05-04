@@ -1,19 +1,15 @@
 [module]
 name = "tstk"
 version = "0.1.0"
-description = "A sample R module consists the toolkit for time series analysis"
+description = "A toolkit for time series decomposition, forecasting, and visualization"
 authors = ["Joshua Marie"]
 license = "MIT"
 r_version = "^4.1.0"
 
-[dependencies.packages]
-stats = "*"
+[package_deps]
 tseries = "*"
 forecast = "*"
 prophet = "*"
-tsibble = "*"
-feasts = "*"
-fable = "*"
 ggplot2 = ">=3.4.0"
 dplyr = ">=1.1.0"
 lubridate = "*"
@@ -23,10 +19,10 @@ stringr = "*"
 glue = "*"
 rlang = "*"
 tidyr = "*"
+tsibble = { version = "*", repo = "https://tidyverts.r-universe.dev/" }
+feasts = { version = "*", repo = "https://tidyverts.r-universe.dev/" }
+fable = { version = "*", repo = "https://tidyverts.r-universe.dev/" }
 
-[repositories]
-cran = "https://cloud.r-project.org"
-
-# [test]
-# framework = "testthat"
-# dir = "tests"
+[test]
+framework = "testthat"
+dir = "tests"
